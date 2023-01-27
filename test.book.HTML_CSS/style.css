@@ -1,0 +1,22 @@
+body{
+    background-color:  rgb(238, 221, 201);
+}
+h1{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(175, 12, 12);
+}
+h2{
+    
+    font-size: 15px;
+    font-weight: 100;
+}
+h3{
+    text-align: center;
+    color: rgb(156, 6, 6);
+}
+.text_one{
+    font-size: 14px;
+    font-weight: 300;
+}
