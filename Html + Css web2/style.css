@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+html {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1140px;
+}
+.promo {
+    height: 800px;
+    background: url('img/main_bg.png') center center/cover no-repeat
+}
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+.logo .logo_text {
+    margin-top: 10px;
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+
+}
+.promo_main{
+    text-transform: uppercase;
+    margin-top: 43px;
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    color: #F9BF3B;
+}
+.promo_easy {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+.promo_text {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    color: #F9BF3B;
+}
+.promo_p {
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.promo_p span{
+    color: #F9BF3B;
+}
+.promo_btn {
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(255, 250, 250);
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    font-family: 'RobotoCondensed';
+    font-size: 21px;
+    line-height: 24px;
+    width: 313px;
+    height: 72px;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    background-color: #3AB6DA;
+}
+.promo_foter {
+    margin-top: 72px; 
+}
+.foter_text {
+    text-transform: uppercase;
+    
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.foter_img {
+    margin-top: 10px;
+    display: block;
+}
+.waiting {
+    background-color: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
+.waiting_text {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+.li {
+    margin-top: 5px;
+    width: 220px;
+    height: 3px;
+    background: #F9BF3B;
+}
+.waiting_two {
+    margin-top: 18px;
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+}
+.waiting_wrapper{
+    display: flex;
+    margin-top: 45px;
+}
+.waiting_item{
+    /* display: inline-block; */
+    width: 342px;
+    vertical-align: top;
+}
+.waiting_tc{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+.optimization {
+    padding: 107px 0px;
+    min-height: 547px;
+}
+.optimization_img {
+    z-index: -1;
+    position: absolute;
+    top: -50px;
+    left: -240px;
+}
+.optimization_text {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    top: 35px;
+    width: 750px;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+}
+.optimization_h2{
+    position: absolute;
+    display: inline-block;
+    right: 130px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    color: #299CBD;
+}
+.optimization_text span {
+    font-weight: 700;
+}
+.finish {
+    padding: 86px 0 66px 0;
+    height: 447px;
+    background: url('img/second_bg.png') center center/cover no-repeat;
+}
+.finish_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #EFEFEF;
+    text-align: center;
+}
+.finish_li {
+    margin-top: 18px;
+    width: 220px;
+    height: 2px;
+    border-radius: 10px;
+    background: #F9BF3B;
+}
+.finish_item{
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+.item_run {
+    width: 226px;
+}
+.section_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    background-color: #B4E2FF;;
+}
+.item_text {
+    margin-top: 24px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+}
+.present{
+    min-height: 628px;
+    padding: 86px 0 88px 0;
+    background-color: #efefef;
+}
+.img_present {
+    display: block;
+    margin: 0 auto;
+}
+.present_text{
+    padding-top: 45px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+}
+.btn_two {
+    margin-top: 51px;
+}
+.vebinar {
+    min-height: 512px;
+    padding: 69px 0 50px 0;
+}
+.computer_img {
+    display: block;
+    margin: 0 auto;
+}
+.vebinar_text {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+.vebinar_date {
+    padding-top: 36px;
+    text-transform: uppercase;
+    color:  #299CBD;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+}
+.vebinar_time {
+    padding-top: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+}
+.foter_page {
+    padding: 57px 0 69px 0;
+    height: 169px;
+    background-color: black;
+}
+.foter_info {
+    width: 374px;
+    display: flex;
+    justify-content:space-around;
+}
+.conf{
+    color: #888888;
+    text-decoration:none;
+
+}
+.foter_li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    height: 15px;
+    width: 2px;
+    background-color: #888888;
+}
+.help {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration:none;
+    color:  #888888;;
+}
+.foter_tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color:  #888888;;
+}
